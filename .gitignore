@@ -1,3 +1,9 @@
+# executable files
+bin/ccl*
+
+# lock files
+package-lock.json
+
 # Logs
 logs
 *.log
@@ -137,3 +143,9 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Exclude ccl binary in bin directory from git but not from npm
+bin/ccl
+
+# Exclude contents of zip directory from git but not from npm
+zip/*

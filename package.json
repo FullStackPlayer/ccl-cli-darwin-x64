@@ -1,0 +1,38 @@
+{
+  "name": "ccl-cli-darwin-x64",
+  "version": "1.0.0",
+  "description": "ccl-cli package for darwin-x64 architecture",
+  "main": "index.js",
+  "bin": {
+    "ccl-darwin-x64": "./bin/ccl"
+  },
+  "scripts": {
+    "postinstall": "node postinstall.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "bin/placeholder.txt",
+    "zip/",
+    "postinstall.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "ccl",
+    "cli",
+    "darwin",
+    "x64"
+  ],
+  "author": "",
+  "license": "MIT",
+  "os": [
+    "darwin"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "preferGlobal": true,
+  "dependencies": {
+    "adm-zip": "^0.5.9"
+  }
+}
