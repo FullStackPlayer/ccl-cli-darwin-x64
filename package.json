@@ -1,6 +1,6 @@
 {
   "name": "ccl-cli-darwin-x64",
-  "version": "1.0.0",
+  "version": "0.9.2",
   "description": "ccl-cli package for darwin-x64 architecture",
   "main": "index.js",
   "bin": {
