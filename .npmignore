@@ -1,4 +1,9 @@
 # .npmignore file for ccl-cli-darwin-arm64
+# macOS
+.DS_Store
+
+# bin files
+bin/ccl*
 
 # Exclude files that should not be included in the npm package
 .gitignore
@@ -28,6 +33,3 @@ package-lock.json
 
 # Exclude any .git files
 .git/
-
-# Exclude the actual binary file in bin directory, but allow placeholder files
-bin/ccl
