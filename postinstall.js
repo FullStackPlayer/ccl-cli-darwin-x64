@@ -11,7 +11,7 @@ if (!fs.existsSync(binDir)) {
 }
 
 // 解压 zip 文件
-const zipPath = path.join(__dirname, 'zip', 'ccl.zip');
+const zipPath = path.join(__dirname, 'zip', 'ccl-darwin-x64.zip');
 const zip = new AdmZip(zipPath);
 
 try {

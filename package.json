@@ -1,17 +1,17 @@
 {
   "name": "ccl-cli-darwin-x64",
-  "version": "0.9.6",
+  "version": "0.9.9",
   "description": "ccl-cli package for darwin-x64 architecture",
   "main": "index.js",
   "bin": {
-    "ccl-darwin-x64": "./bin/ccl"
+    "ccl-darwin-x64": "./bin/ccl-darwin-x64.js"
   },
   "scripts": {
     "postinstall": "node postinstall.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
-    "bin/",
+    "bin/ccl-darwin-x64.js",
     "zip/",
     "postinstall.js",
     "README.md",
