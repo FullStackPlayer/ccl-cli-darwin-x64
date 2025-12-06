@@ -2,7 +2,8 @@
 .DS_Store
 
 # executable files
-bin/ccl*
+bin/ccl
+!bin/ccl-darwin-x64.js
 
 # zip files
 zip/*.zip
